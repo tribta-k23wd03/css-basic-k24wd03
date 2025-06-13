@@ -1,0 +1,73 @@
+body {
+  margin: 10px;
+}
+/* #products p{
+    color: orange;
+} */
+
+/* #products > p{
+    color: orange;
+} */
+
+/* #products + p{
+    color: orange;
+} */
+
+/* #products ~ p{
+    color: orange;
+} */
+
+/* article .first {
+  color: navy;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+} */
+
+/* article :first-child {
+  color: navy;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+} */
+/* article :last-child {
+  color: navy;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+} */
+/* article :nth-child(odd) {
+  color: navy;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+article :nth-child(even) {
+  color: navy;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+} */
+
+/* article ::after {
+  content: "...";
+}
+article ::before {
+  content: "...";
+  display: block;
+} */
+
+a :hover {
+  color: red;
+  text-decoration: none;
+}
+
+a :visited,
+a :link {
+  color: pink;
+}
+
+a :hover,
+a :focus {
+  color: cadetblue;
+}

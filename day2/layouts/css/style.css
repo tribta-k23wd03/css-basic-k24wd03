@@ -1,0 +1,42 @@
+/* .box{
+  border: 1px solid gold;
+  background: gold;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+} */
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(tomato, dodgerblue);
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: blue;
+}
+
+.triangle {
+  border: 200px solid blueviolet;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.star {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: #eb479e;
+}
