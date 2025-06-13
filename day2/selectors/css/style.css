@@ -1,0 +1,28 @@
+/* inline > external > embedded */
+.p2 {
+  background: purple;
+}
+#p1 {
+  background: dodgerblue;
+}
+/* a[target="_blank"] {
+  background: navy;
+} */
+
+/* a[href="https://www.google.co.uk/"]{
+    background: gold;
+} */
+/* a[href*="google"]{
+    background: gold;
+} */
+
+/* a[href$="/"]{
+    background: gold;
+} */
+/* a[href^="h"]{
+    background: gold;
+} */
+
+a[href^="h"][href$="/"] {
+  background: gold;
+}
